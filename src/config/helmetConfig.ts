@@ -21,4 +21,4 @@ export const apiHelmetConfig = helmet({
 
     // Prevent clickjacking
     frameguard: { action: "deny" },
-});
+}); 

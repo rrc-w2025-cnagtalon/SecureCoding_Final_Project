@@ -30,12 +30,12 @@ const orderRoutes = Router();
  *                     $ref: '#/components/schemas/Order'
  *                 message:
  *                   type: string
- *       500:
+ *       500: 
  *         description: Server error
  */
 orderRoutes.get("/", getAllOrders);
 
-/**
+/** 
  * @swagger
  * /api/v1/orders/{orderNumber}:
  *   get:

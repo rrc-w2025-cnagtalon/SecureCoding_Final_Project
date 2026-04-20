@@ -101,4 +101,4 @@ export const deleteKakanin = async (req: Request, res: Response): Promise<void> 
     } catch (error) {
         res.status(HTTP_STATUS.INTERNAL_SERVER_ERROR).json(errorResponse("Something went wrong deleting the kakanin.", "DELETE_KAKANIN_ERROR"));
     }
-};
+}; 

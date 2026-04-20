@@ -22,7 +22,7 @@ const managerRoutes: Router = Router();
  *           schema:
  *             type: object
  *             required:
- *               - uid
+ *               - uid 
  *               - claims
  *             properties:
  *               uid:
