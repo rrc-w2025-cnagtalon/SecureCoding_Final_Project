@@ -42,7 +42,7 @@ export const orderSchemas = {
     getById: {
         params: Joi.object({
             orderNumber: Joi.string().required().messages({
-                "any.required": "Order number is required",
+                "any.required": "Order number is required", 
                 "string.empty": "Order number cannot be empty",
             }),
         }),

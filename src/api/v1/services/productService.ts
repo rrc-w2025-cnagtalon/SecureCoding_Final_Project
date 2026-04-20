@@ -42,6 +42,6 @@ export const updateKakaninService = async (productId: string, updateData: Produc
 
 export const deleteKakaninService = async (productId: string): Promise<boolean> => {
     await deleteDocument(productId);
-    return true;
+    return true; 
 }
 

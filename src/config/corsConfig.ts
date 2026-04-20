@@ -17,4 +17,4 @@ export const getCorsOptions = () => {
         allowedHeaders: ["Content-Type", "Authorization"],
     };
 };
-  
+   

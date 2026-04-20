@@ -25,4 +25,4 @@ export const initScheduler = () => {
   });
 
   console.log('[Scheduler] Node-cron tasks have been initialized.');
-};
+}; 

@@ -21,7 +21,7 @@ export const getAllOrders = async (req: Request, res: Response): Promise<void> =
 export const getOrderById = async (req: Request, res: Response): Promise<void> => {
     try {
         const { orderNumber } = req.params;
-
+ 
         const order = await getOrderByIdService(orderNumber);
 
         if (!order) {

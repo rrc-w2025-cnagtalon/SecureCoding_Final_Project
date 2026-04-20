@@ -42,7 +42,7 @@ app.use("/api/v1/orders", orderRoutes);
 app.use("/api/v1/orders", managerRoutes);
 
 /**
- * @swagger
+ * @swagger 
  * /:
  *   get:
  *     summary: API Welcome endpoint

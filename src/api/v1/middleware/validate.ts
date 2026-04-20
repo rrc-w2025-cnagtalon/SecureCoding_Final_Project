@@ -26,7 +26,7 @@ interface ValidationOptions {
  */
 export const validateRequest = (
     schemas: RequestSchemas,
-    options: ValidationOptions = {}
+    options: ValidationOptions = {} 
 ) => {
     // stripParams - Usually don't strip params as they're route-defined
     const defaultOptions = {

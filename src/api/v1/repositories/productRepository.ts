@@ -39,7 +39,7 @@ export const getDocumentById = async (id: string): Promise<ProductDTO | undefine
         // `doc.data()` returns an object with all fields in the document
         let data = doc.data();
 
-        return {
+        return { 
             productId: data?.productId,
             name: data?.name,
             currentStock: data?.currentStock,

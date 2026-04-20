@@ -50,7 +50,7 @@ export const createKakanin = async (req: Request, res: Response) => {
     const result = await createKakaninService(requestData);
 
     res.status(HTTP_STATUS.CREATED).json(successResponse(result, "New kakanin created successfully.")
-    );
+    ); 
 };
 
 export const updateKakanin = async (req: Request, res: Response): Promise<void> => {

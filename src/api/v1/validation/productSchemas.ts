@@ -42,7 +42,7 @@ export const productSchemas = {
             currentStock: Joi.number().integer().min(0).optional(),
             lowStockThreshold: Joi.number().integer().min(0).optional(),
             isActive: Joi.boolean().optional(),
-        }).min(1).messages({
+        }).min(1).messages({ 
             "object.min": "At least one field must be provided for update",
         }),
     },

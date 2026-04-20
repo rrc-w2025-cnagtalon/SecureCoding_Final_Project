@@ -37,7 +37,7 @@ export const getDocumentById = async (id: string): Promise<OrderSlip | undefined
     // Check if the document exists
     if (doc.exists) {
         // `doc.data()` returns an object with all fields in the document
-        let data = doc.data();
+        let data = doc.data(); 
 
         return {
             orderNumber: data?.orderNumber,

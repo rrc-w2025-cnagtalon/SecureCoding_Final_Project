@@ -209,4 +209,4 @@ productRoutes.put("/:id", authenticate, isAuthorized({hasRole: ["manager", "empl
  */
 productRoutes.delete("/:id", authenticate, isAuthorized({hasRole: ["manager"]}), validateRequest(productSchemas.delete), deleteKakanin);
 
-export default productRoutes; 
+export default productRoutes;  

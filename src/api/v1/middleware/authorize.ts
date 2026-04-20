@@ -25,7 +25,7 @@ const isAuthorized = (opts: AuthorizationOptions) => {
 
             // Allow if the same user is accessing their own data
             if (opts.allowSameUser && id && uid === id) {
-                return next();
+                return next(); 
             }
 
             // If no role exists on the user, throw Forbidden response

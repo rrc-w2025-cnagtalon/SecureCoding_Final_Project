@@ -36,4 +36,4 @@ const swaggerOptions: swaggerJsdoc.Options = {
 // Generate the Swagger spec
 export const generateSwaggerSpec = (): object => {
     return swaggerJsdoc(swaggerOptions);
-};
+}; 

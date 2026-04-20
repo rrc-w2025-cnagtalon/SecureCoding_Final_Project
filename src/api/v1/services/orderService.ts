@@ -41,7 +41,7 @@ export const createOrderService = async (data: OrderCreateRequest): Promise<stri
     if (items.length > 6) {
         throw new Error("A platter can contain a maximum of 6 different kakanin types.");
     }
-
+ 
     // minimum 6 pieces per type
     const hasInvalidQuantity = items.some(item => item.quantity < 6);
     if (hasInvalidQuantity) {

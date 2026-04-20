@@ -7,4 +7,4 @@ const setupSwagger = (app: Express): void => {
     app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(specs));
 };
 
-export default setupSwagger;
+export default setupSwagger;  

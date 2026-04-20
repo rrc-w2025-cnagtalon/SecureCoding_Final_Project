@@ -37,7 +37,7 @@ const managerRoutes: Router = Router();
  *           example:
  *             uid: "user123"
  *             claims:
- *               role: "manager"
+ *               role: "manager" 
  *     responses:
  *       200:
  *         description: User claims updated successfully

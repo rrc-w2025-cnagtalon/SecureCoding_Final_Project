@@ -41,7 +41,7 @@ export const generateDailyBakeList = async (date: string): Promise<Record<string
                 } else {
                     //if there's no existing entry for this product, create one
                     totals[item.productId] = item.quantity;
-                }
+                } 
             });
         });
 

@@ -30,7 +30,7 @@ const errorHandler = (
         res.status(HTTP_STATUS.INTERNAL_SERVER_ERROR).json(
             errorResponse("An unexpected error occurred", "UNKNOWN_ERROR")
         );
-        return;
+        return; 
     }
 
     // Log the error message for debugging

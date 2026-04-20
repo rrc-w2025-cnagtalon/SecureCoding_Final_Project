@@ -29,7 +29,7 @@ const orderRoutes = Router();
  *                   items:
  *                     $ref: '#/components/schemas/Order'
  *                 message:
- *                   type: string
+ *                   type: string 
  *       500: 
  *         description: Server error
  */
